@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Link from "next/link";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
       <div className="text-center text-white px-4 animate-fade-in">
         <h1 className="text-5xl md:text-6xl font-bold mb-4">Coming Soon</h1>
         <p className="text-lg md:text-xl mb-8">
-          We're building something amazing. Stay tuned!
+          We&apos;re building something amazing. Stay tuned!
         </p>
         <Link href="mailto:hi" className="px-6 py-3 bg-white text-indigo-600 font-semibold rounded-lg shadow-lg hover:bg-gray-200 transition transform hover:scale-105 animate-pulse">
         Notify Me
